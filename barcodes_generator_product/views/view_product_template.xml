@@ -20,7 +20,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
                     colspan="2"
                     widget="selection"
                 />
-                <field name="generate_type" invisible="1" />
+                <field name="generate_type" invisible="1" /><!--invisible-->
                 <label
                     for="barcode_base"
                     invisible="not barcode_rule_id or product_variant_count &gt; 1"
