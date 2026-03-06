@@ -10,7 +10,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
         <field
             name="group_ids"
             eval="[
-            (4, ref('barcodes_generator_abstract.generate_barcode')),
+                Command.link(ref('product.group_product_variant')),
             ]"
         />
     </record>
